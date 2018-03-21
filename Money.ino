@@ -1,6 +1,6 @@
 #include <LEDMatrix.h>
 #include <IRremote.h>
-
+/**/
 #include <ConfigOnEEPROM.h>
 
 #define _DEBUG_
@@ -8,7 +8,7 @@
 //#define _MEGA_
 #define _UNO_
 
-#define READY        1
+#define READY        22
 #define NOT_READY    0
 #define IR_RCVING    2        // 신호를 수신중
 
